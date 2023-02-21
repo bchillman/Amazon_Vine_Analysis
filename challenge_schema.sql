@@ -6,7 +6,7 @@ CREATE TABLE review_id_table (
   review_date DATE -- this should be in the formate yyyy-mm-dd
 );
 
--- This table will contain only unique values
+-- This table will contain only unisque values
 CREATE TABLE products_table (
   product_id TEXT PRIMARY KEY NOT NULL UNIQUE,
   product_title TEXT
