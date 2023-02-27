@@ -4,9 +4,13 @@ This analysis was done to determine the effectiveness of the Amazon Vine program
 
 ## Results
 As mentioned above, this was a poor dataset to chose, because no book reviews were made through the Vine program. The data was first filtered to get rid of reviews that did not have a high number of votes and get rid of reviews that were deemed unhelpful (more than 50% of votes were "Unhelpful" instead of "Helpful"). After this, two dataframes were made, one with reviews made through the Vine system and one with reviews that had not paid for the Vine program. The first, however, yielded 0 reviews, as can be seen below:
-
+<p align="center">
+<img src="https://github.com/bchillman/Amazon_Vine_Analysis/blob/main/Images/paid_dataframe.png" width="809" height="102">
+</p>
 Since there were 0 of these reviews, no analysis can be made of the Vine Program. The second dataframe is shown below with its results:
-
+<p align="center">
+<img src="https://github.com/bchillman/Amazon_Vine_Analysis/blob/main/Images/unpaid_dataframe.png" width="426" height="197">
+</p>
 This dataframe can be analyzed and it is found that, after filtering, there were 375,353 total un-paid reviews, 226,910 of which were 5-star reviews. This gives us a percentage of 60.5% of reviews that were not through the Vine Program that were five stars.
 
 ## Summary
